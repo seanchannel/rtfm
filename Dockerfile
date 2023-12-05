@@ -20,7 +20,7 @@ RUN apt-get update && apt-get -y install lighttpd && \
     ln -s /var/lib/info2www /var/www
 
 # install a bunch of docs / things with docs -- season to taste
-RUN apt-get install -y --install-suggests miscfiles lighttpd-doc linux-doc build-essential \
+RUN apt-get install -y miscfiles lighttpd-doc linux-doc build-essential \
     binutils-doc autoconf-doc automake bison-doc cpp-doc diffutils-doc flex \
     gcc-doc gdb gdb-doc bison glibc-doc gnu-standards git \
     git-doc libtool libtool-doc make-doc libboost-doc \
